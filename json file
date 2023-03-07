@@ -1,0 +1,11 @@
+<var>http = require ('http');
+            <var>fs = require ('fs);
+                http.create server (function (req,rg){
+                    fs.readfile ('resume.html.',function(err,data){
+                        res.eriteHead(200,{'wntent-type':'text/html'});
+                        res.write(data);
+                        return res.end();
+                    })
+                }).listener (8094);
+            </var>
+          </var>  
